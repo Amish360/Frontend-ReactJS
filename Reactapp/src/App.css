@@ -1,0 +1,30 @@
+
+
+.App {
+  text-align: center;
+  background-color: aqua;
+  background-size: cover;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+button {
+  background-color: aquamarine;
+  padding: 5px;
+  margin:5px;
+}
