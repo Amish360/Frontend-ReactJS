@@ -1,4 +1,8 @@
 
+#searchbar{
+  padding: 5px;
+  margin: 5px;
+}
 
 .App {
   text-align: center;
@@ -7,11 +11,13 @@
 }
 
 table {
-  height: max-content;
+  height: 150px;
   border-collapse: collapse;
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
+  overflow-y: auto;
+  overflow-x: auto;
 }
 
 th, td {
