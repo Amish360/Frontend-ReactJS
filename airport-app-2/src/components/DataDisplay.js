@@ -60,7 +60,11 @@ function DataDisplay() {
     setData(originalData);
   };
 
-   
+  const handleClearSearch = () => {
+    setSearchQuery('');
+    setData(originalData);
+  };
+
    
 
 
@@ -88,6 +92,7 @@ function DataDisplay() {
             checked={wholeWord}
             onChange={() => setWholeWord(!wholeWord)}
           />
+          <button onClick={handleClearSearch}>Clear Search</button>
         </label>
         <br/>
         <label>Select The column from which you want to sort the data:</label>
